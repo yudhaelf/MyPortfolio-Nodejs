@@ -7,6 +7,28 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Profile - Yudha Elfransyah</title>
 	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+	<style>
+		div.gallery {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
@@ -16,7 +38,7 @@
 			class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
 			<div class="p-4 md:p-12 text-center lg:text-left">
 				<div class="rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-					style="background-image: url('https://media.licdn.com/dms/image/D5603AQEXo77obLpcdA/profile-displayphoto-shrink_200_200/0/1669418704620?e=2147483647&v=beta&t=z3mP4c1T8eTS2QeMwyjDZphlEqeQwFcQnJr8ns38ZeQ')">
+					style="background-image: url('https://storage.googleapis.com/images_myportfolio/yudhae.jpeg')">
 				</div>
 				<h1 class="text-3xl font-bold pt-8 lg:pt-0">Hello...👋</h1>
 				<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -37,8 +59,59 @@
 					<button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
 						<a href="https://id.linkedin.com/in/yudha-elfransyah-b6913737">View Profile</a>
 					</button>
+
 				</div>
+
+
+				<div class="max-w-4xl lg:w-full mx-auto flex flex-wrap items-center justify-between">
+
+
+					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+							<img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+					<div class="gallery">
+						<a target="_blank" href="img_forest.jpg">
+							<img src="img_forest.jpg" alt="Forest" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+					<div class="gallery">
+						<a target="_blank" href="img_lights.jpg">
+							<img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+					<div class="gallery">
+						<a target="_blank" href="img_forest.jpg">
+							<img src="img_forest.jpg" alt="Forest" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+					<div class="gallery">
+						<a target="_blank" href="img_mountains.jpg">
+							<img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+					<div class="gallery">
+						<a target="_blank" href="img_5terre.jpg">
+							<img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+						</a>
+						<div class="desc">Add a description of the image here</div>
+					</div>
+
+				</div>
+
 				<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+
 					<a class="link" href="https://www.facebook.com/" data-tippy-content="Yudha Elfransyah"><svg
 							class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg">
@@ -72,10 +145,6 @@
 			</div>
 		</div>
 
-		<div class="w-full lg:w-2/5">
-			<img src="https://storage.googleapis.com/kbs-nexwave.appspot.com/muhamad_widi_aryanto.jpg"
-				class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
-		</div>
 
 		<div class="absolute top-0 right-0 h-12 w-18 p-4">
 			<button class="js-change-theme focus:outline-none">🌙</button>
